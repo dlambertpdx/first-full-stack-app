@@ -11,10 +11,11 @@ client.connect()
             CREATE TABLE horror (
                 id SERIAL PRIMARY KEY NOT NULL,
                 title VARCHAR(256) NOT NULL,
-                summary VARCHAR(256) NOT NULL,
+                summary TEXT NOT NULL,
                 worthWatch BOOLEAN NOT NULL,
-                year INTEGER NOT NULL,
-                director VARCHAR(256) NOT NULL
+                releaseYear INTEGER NOT NULL,
+                director VARCHAR(256) NOT NULL,
+                url VARCHAR(256) NOT NULL
             );
     `);
     })
