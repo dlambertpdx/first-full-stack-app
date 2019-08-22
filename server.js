@@ -18,6 +18,27 @@ app.use(morgan('dev'));
 app.use(cors());
 app.use(express.static('public'));
 
+app.get('/api/horror', (req, res) => {
+    client.query(`
+        SELECT
+            id,
+            title,
+            summary,
+            worthWatch,
+            releaseYear,
+            director,
+            url
+        FROM HORROR
+    `)
+        .then(result => {
+            res.json(result.rows);
+        })
+        .catch(err => {
+            res.status(500).json({
+                error: err.message || err
+            });
+        });
+});
 
 
 app.listen(PORT, () => {
