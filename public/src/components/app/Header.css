@@ -1,8 +1,26 @@
-header {
+@import url('https://fonts.googleapis.com/css?family=Acme|Cabin|Fjalla+One&display=swap');
 
-}
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Acme', sans-serif; */
 
 header img{
     width: 100vw;
     margin-top: -30px;
+    margin-bottom: -40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 30px;
+    color: darkred;
+    padding: 5px;
+}
+
+nav a {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 3px;
 }
