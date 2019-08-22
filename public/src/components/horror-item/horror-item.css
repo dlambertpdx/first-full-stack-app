@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Cabin|Fjalla+One&display=swap');
+
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Acme', sans-serif; */
+
+.horror-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    width: 47vw;
+    background-color: rgba(243, 127, 127, 0.3);
+    border: 1px solid black;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.horror-item:hover {
+    transition: transform 100ms ease-in-out;
+    box-shadow: 3px 3px 6px rgba(48, 5, 5, 0.5);
+    transform: translate3d(-1.5px, 1.5px, 0);
+}
+
+.horror-img {
+    height: 90%;
+    margin-left: 10px;
+}
+
+.horror-copy {
+    display: flex;
+    flex-direction: column;
+}
+
+.url {
+    height: 100%;
+    object-fit: contain;
+}
+
+.horror-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 1.75em;
+    line-height: 1em;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.year {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.summary {
+    font-size: 0.8em;
+    width: 90%;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.worth-watch {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+}
