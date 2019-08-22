@@ -14,7 +14,8 @@ client.connect()
                 summary VARCHAR(256) NOT NULL,
                 worthWatch BOOLEAN NOT NULL,
                 year INTEGER NOT NULL,
-                director VARCHAR(256) NOT NULL
+                director VARCHAR(256) NOT NULL,
+                url VARCHAR(256) NOT NULL
             );
     `);
     })
