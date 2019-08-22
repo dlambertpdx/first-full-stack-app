@@ -1,0 +1,41 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js",
+    "create-tables": "node data/create-tables.js",
+    "load-seed-data": "node data/load-seed-data.js",
+    "recreate-tables": "npm run drop-tables && npm run create-tables",
+    "setup-db": "npm run recreate-tables && npm run load-seed-data"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanvean74/first-full-stack-app.git"
+  },
+  "author": "Donna Lambert and Angela Vawser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanvean74/first-full-stack-app/issues"
+  },
+  "homepage": "https://github.com/sanvean74/first-full-stack-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.2.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
