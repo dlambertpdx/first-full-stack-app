@@ -73,7 +73,7 @@ module.exports = [
     },
     {
         title: 'TRAUMA',
-        summary: 'An anorexic young woman escapes from a psychiatric clinic and meets a young man who wants to help. She is caught and returned to her parents, who are soon beheaded by a garrotting stranger making the rounds about town, apparently striking only when it rains. The orphaned young woman and her new lover launch their own investigation and are endangered when a link is discovered with the victims and a particular operation performed years before.',
+        summary: 'An anorexic young woman escapes from a psychiatric clinic and meets a young man who wants to help.',
         worthWatch: true,
         releaseYear: 1993,
         director: 'Dario Argento',
@@ -81,7 +81,7 @@ module.exports = [
     },
     {
         title: 'DO YOU LIKE HITCHCOCK?',
-        summary: 'In 1990, as a boy, Giulio was chased through the woods by two women after spying on them practicing witchcraft. Now a young film student in Turin, he watches his neighbors in the flats across from his third floor apartment, especially Sasha when she’s naked or arguing with her mother. Giulio’s girlfriend is disgusted with his voyeurism, but, after a murder occurs, Giulio is convinced that two relative strangers, just as in Hitchcock and Highsmith’s “Strangers in a Train,” have agreed to murder each other’s bête noir. He follows his suspects, ends up with an intruder and a broken foot, and may be in real danger. Is he more than a peeping Tom?',
+        summary: 'In 1990, as a boy, Giulio was chased through the woods by two women after spying on them practicing witchcraft.',
         worthWatch: false,
         releaseYear: 2005,
         director: 'Dario Argento',
@@ -97,7 +97,7 @@ module.exports = [
     },
     {
         title: 'PELTS',
-        summary: 'Meat Loaf Aday plays Jake Feldman, a furrier struggling to build a business while being tormented by his obsession for a stripper. When a sadistic backwoods trapper kills a strange group of pet raccoons, Jake knows their luxurious hides could make a coat that will change his fortunes forever. Only these are no ordinary pelts: the cursed furs will wreak vengeance on anyone who touches them.',
+        summary: 'Meat Loaf Aday plays Jake Feldman, a furrier struggling to build a business while being tormented by his obsession for a stripper. ',
         worthWatch: false,
         releaseYear: 2006,
         director: 'Dario Argento',
@@ -105,7 +105,7 @@ module.exports = [
     },
     {
         title: 'THE MOTHER OF TEARS',
-        summary: 'An ancient urn is found in a cemetery outside Rome. Once opened, it triggers a series of violent incidents: robberies, rapes and murders increase dramatically, while several mysterious, evil-looking young women coming from all over the world are gathering in the city. All these events are caused by the return of Mater Lacrimarum, the last of three powerful witches who have been spreading terror and death for centuries. Alone against an army of psychos and demons, Sarah Mandy, an art student who seems to have supernatural abilities of her own, is the only person left to prevent the Mother of Tears from destroying Rome.',
+        summary: 'An ancient urn is found in a cemetery outside Rome. Once opened, it triggers a series of violent incidents: robberies, rapes and murders increase dramatically, while several mysterious, evil-looking young women coming from all over the world are gathering in the city.',
         worthWatch: false,
         releaseYear: 2007,
         director: 'Dario Argento',
@@ -145,7 +145,7 @@ module.exports = [
     },
     {
         title: 'GIALLO',
-        summary: 'In Torino, Celine, an American model, is abducted by a taxi driver while en route home to meet her sister Linda, visiting at her apartment. The next morning, Linda reports that Celine is missing – the sergeant in charge directs her to F.B.I. agent Inspector Enzo Avolfi. He’s from the Special New York City Department investigating a serial-killer that kidnaps foreigners to destroy their beauty. When a Japanese woman is found at nearby a fountain, Enzo and Linda find that the girl is calling the abductor’s skin is “Yellow” in color and Linda concludes that the guy might have jaundice. They go to the Policlinic di Torino to find the killer.',
+        summary: 'In Torino, Celine, an American model, is abducted by a taxi driver while en route home to meet her sister Linda, visiting at her apartment. The next morning, Linda reports that Celine is missing – the sergeant in charge directs her to F.B.I. agent Inspector Enzo Avolfi.',
         worthWatch: true,
         releaseYear: 2010,
         director: 'Dario Argento',
@@ -161,7 +161,7 @@ module.exports = [
     },
     {
         title: 'THE SANDMAN',
-        summary: 'THE SANDMAN tells the story of Nathan, a young student in the city who struggles to forget his childhood trauma at the hands of the serial killer dubbed “The Sandman.” Nathan killed The Sandman years ago, on Christmas Eve, after he witnessed the murder of his mother… until he sees the beautiful woman who lives in the apartment across the way dying at the hands of that same masked killer. This brutal murder plunges Nathan into an odyssey into the night country of his past, his dreams… and the buried secrets of The Sandman.',
+        summary: 'THE SANDMAN tells the story of Nathan, a young student in the city who struggles to forget his childhood trauma at the hands of the serial killer dubbed “The Sandman.”',
         worthWatch: false,
         releaseYear: 2018,
         director: 'Dario Argento',
