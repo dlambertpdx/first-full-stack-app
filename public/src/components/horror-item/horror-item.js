@@ -10,7 +10,7 @@ class HorrorItem extends Component {
                     <img class="url" src="${horror.url_image} alt="${horror.title}" />
                 </div>
                 <div class="horror-copy">
-                    <li class="horror-title">THE BIRD WITH THE CRYSTAL PLUMAGE</li>
+                    <li class="horror-title">${horror.title}</li>
                     <li class="year">${horror.year}</li>
                     <li class="summary">${horror.summary}</li>
                     <li class="worth-watch">Worth Watching: ${horror.worthWatch}</li>
