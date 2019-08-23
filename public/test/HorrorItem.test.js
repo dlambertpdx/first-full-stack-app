@@ -12,7 +12,7 @@ test('test name', assert => {
         worthWatch: true,
         releaseYear: 1977,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/suspiria-previous-design-2.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/suspiria-previous-design-2.jpg'
     };
 
     const expected = /*html*/ `
