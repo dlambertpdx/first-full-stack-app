@@ -6,8 +6,8 @@ class Header extends Component {
         <header>
             <nav>
                 <a href="./">HOME</a>
-                <a href="./public/">LIST</a>
-                <a href="./public/">FORM</a>
+                <a href="./horror-list.html">LIST</a>
+                <a href="./horror-form.html">FORM</a>
             </nav>
             <img src="public/assets/banner.png" alt="Grand Guignol di Dario Argento" />
         </header>

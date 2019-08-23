@@ -1,5 +1,5 @@
-import Component from './Component.js';
-import Header from './Header.js';
+import Component from '../Component.js';
+import Header from '../app/Header.js';
 import { getHorror } from '../services/horror-api.js';
 
 class ListApp extends Component {

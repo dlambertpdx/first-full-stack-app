@@ -1,4 +1,4 @@
-import Component from '../Component.js';
+import Component from '../public/src/components/Component.js';
 
 class HorrorItem extends Component {
     renderHTML() {
