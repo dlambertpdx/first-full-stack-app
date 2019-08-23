@@ -28,7 +28,7 @@ app.get('/api/horrors', (req, res) => {
             worthWatch,
             releaseYear,
             director,
-            url
+            url_image
         FROM HORROR
     `)
         .then(result => {

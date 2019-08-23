@@ -5,7 +5,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1971,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/aHTnICNQ4IY40SRX3kVULE1QvKp-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/aHTnICNQ4IY40SRX3kVULE1QvKp-238x357.jpg'
     },
     {
         title: 'THE BIRD WITH THE CRYSTAL PLUMAGE',
@@ -13,7 +13,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1970,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/R4kmKsGKvhAQn5xq98zs8JHL8c-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/R4kmKsGKvhAQn5xq98zs8JHL8c-238x357.jpg'
     },
     {
         title: 'THE CAT O’ NINE TAILS',
@@ -21,7 +21,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1971,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/zS41KSGoiX6D8dkhR99Han1uDRe-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/zS41KSGoiX6D8dkhR99Han1uDRe-238x357.jpg'
     },
     {
         title: 'DEEP RED',
@@ -29,7 +29,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1975,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/rSHs6nsCw6vJwgz9djlAp4g3NCN-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/rSHs6nsCw6vJwgz9djlAp4g3NCN-238x357.jpg'
     },
     {
         title: 'SUSPIRIA',
@@ -37,7 +37,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1977,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/suspiria-previous-design-2.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/suspiria-previous-design-2.jpg'
     },
     {
         title: 'INFERNO',
@@ -45,7 +45,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1980,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/oTTIGtDkRRwTklBnPtjyyxXe46H-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/oTTIGtDkRRwTklBnPtjyyxXe46H-238x357.jpg'
     },
     {
         title: 'TENEBRE',
@@ -53,7 +53,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1982,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/tenebre_poster_01.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/tenebre_poster_01.jpg'
     },
     {
         title: 'PHENOMENA',
@@ -61,7 +61,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1985,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/qUwGQT1EtkIm8vtN3VtnBDOoV7q-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/qUwGQT1EtkIm8vtN3VtnBDOoV7q-238x357.jpg'
     },
     {
         title: 'OPERA',
@@ -69,7 +69,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1987,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/jpAtjToZF7564rxyoPjxtk4ckjJ-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/jpAtjToZF7564rxyoPjxtk4ckjJ-238x357.jpg'
     },
     {
         title: 'TRAUMA',
@@ -77,7 +77,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1993,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/7LUSWtI7h3GCkvyKDEKJk3h0hcp-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/7LUSWtI7h3GCkvyKDEKJk3h0hcp-238x357.jpg'
     },
     {
         title: 'DO YOU LIKE HITCHCOCK?',
@@ -85,7 +85,7 @@ module.exports = [
         worthWatch: false,
         releaseYear: 2005,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/3P3H7SNSMBJlCVXuIAmX2PviZRg-238x339.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/3P3H7SNSMBJlCVXuIAmX2PviZRg-238x339.jpg'
     },
     {
         title: 'JENIFER',
@@ -93,7 +93,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 2005,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/8QKXIwMVGhAbf4wEOvZrXgOIur2-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/8QKXIwMVGhAbf4wEOvZrXgOIur2-238x357.jpg'
     },
     {
         title: 'PELTS',
@@ -101,7 +101,7 @@ module.exports = [
         worthWatch: false,
         releaseYear: 2006,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/7eGjxw1tHyt0HJmKUe0dLAdKHv2-238x338.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/7eGjxw1tHyt0HJmKUe0dLAdKHv2-238x338.jpg'
     },
     {
         title: 'THE MOTHER OF TEARS',
@@ -109,7 +109,7 @@ module.exports = [
         worthWatch: false,
         releaseYear: 2007,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/sGFOggXN12CcSXD01hSAIaEoSgs-238x357.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/sGFOggXN12CcSXD01hSAIaEoSgs-238x357.jpg'
     },
     {
         title: 'THE STENDHAL SYNDROME',
@@ -117,7 +117,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1996,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/hYGuGcIOBG4RRucfRB1m3PJLq3M.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/04/hYGuGcIOBG4RRucfRB1m3PJLq3M.jpg'
     },
     {
         title: 'SLEEPLESS',
@@ -125,7 +125,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 2001,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/ihD09Yz6sIhwGHDq0Bo1IZaIeAC.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/ihD09Yz6sIhwGHDq0Bo1IZaIeAC.jpg'
     },
     {
         title: 'THE PHANTOM OF THE OPERA',
@@ -133,7 +133,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 1998,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/8zIyZAocVHcTXlgtlZpjIVnD8oH.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/8zIyZAocVHcTXlgtlZpjIVnD8oH.jpg'
     },
     {
         title: 'DRACULA 3D',
@@ -141,7 +141,7 @@ module.exports = [
         worthWatch: false,
         releaseYear: 2012,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gBTESdCrJnGHEqn8zgbWCYPggzz.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/gBTESdCrJnGHEqn8zgbWCYPggzz.jpg'
     },
     {
         title: 'GIALLO',
@@ -149,7 +149,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 2010,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/rTgCStxAi0RVTvHN6SiiETmwQew.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/rTgCStxAi0RVTvHN6SiiETmwQew.jpg'
     },
     {
         title: 'THE CARD PLAYER',
@@ -157,7 +157,7 @@ module.exports = [
         worthWatch: true,
         releaseYear: 2004,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/7CMdqXK0pncI3f6ul6QmyZkzm6D.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/7CMdqXK0pncI3f6ul6QmyZkzm6D.jpg'
     },
     {
         title: 'THE SANDMAN',
@@ -165,7 +165,7 @@ module.exports = [
         worthWatch: false,
         releaseYear: 2018,
         director: 'Dario Argento',
-        url: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/eju4vLNx9sSvscowmnKNLi3sFVe.jpg'
+        url_image: 'https://n2n7w2w4jmg4f5rtr2b482vt-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/eju4vLNx9sSvscowmnKNLi3sFVe.jpg'
     },
 
 ];
