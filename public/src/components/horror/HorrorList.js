@@ -1,4 +1,4 @@
-import Component from './Component.js';
+import Component from '../Component.js';
 import HorrorItem from './HorrorItem.js';
 
 class HorrorList extends Component {
@@ -16,7 +16,7 @@ class HorrorList extends Component {
 
     renderHTML() {
         return /*html*/`
-            <!--- Movie List goes here -->
+        <ul></ul>
         `;
     }
 }
