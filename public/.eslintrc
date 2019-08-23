@@ -8,18 +8,15 @@
     "sourceType": "module"
   },
   "env": {
-    "node": true,
+    "browser": true,
     "es6": true
   },
   "globals": {
     "QUnit": false
   },
   "rules": {
-    "eqeqeq": [
-      "error",
-      "always"
-    ],
-    "no-console": "off",
+    "eqeqeq": ["error", "always"],
+    "no-console": "warn",
     "indent": [
       "error",
       4,
@@ -29,11 +26,11 @@
       }
     ],
     "quotes": [
-      "error",
+      "error", 
       "single",
-      {
+      { 
         "avoidEscape": true,
-        "allowTemplateLiterals": true
+        "allowTemplateLiterals": true 
       }
     ],
     "no-multi-spaces": [
@@ -49,23 +46,12 @@
         "builtinGlobals": true
       }
     ],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "space-in-parens": [
-      "error"
-    ],
+    "semi": ["error", "always"],
+    "space-in-parens": ["error"],
     "space-infix-ops": "error",
-    "object-curly-spacing": [
-      "error",
-      "always"
-    ],
+    "object-curly-spacing": ["error", "always"],
     "comma-spacing": "error",
-    "space-before-function-paren": [
-      "error",
-      "never"
-    ],
+    "space-before-function-paren": ["error", "never"],
     "keyword-spacing": [
       "error",
       {
