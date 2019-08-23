@@ -18,7 +18,7 @@ app.use(morgan('dev'));
 app.use(cors());
 app.use(express.static('public'));
 
-app.get('/api/horror', (req, res) => {
+app.get('/api/horrors', (req, res) => {
     client.query(`
         SELECT
             id,
