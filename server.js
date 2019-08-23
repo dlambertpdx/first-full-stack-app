@@ -24,7 +24,7 @@ app.get('/api/horror', (req, res) => {
             id,
             title,
             summary,
-            worth_watch,
+            worthWatch,
             releaseYear,
             director,
             url
