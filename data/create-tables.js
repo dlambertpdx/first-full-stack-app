@@ -15,7 +15,7 @@ client.connect()
                 worthWatch BOOLEAN NOT NULL,
                 releaseYear INTEGER NOT NULL,
                 director VARCHAR(256) NOT NULL,
-                url VARCHAR(256) NOT NULL
+                urlImage VARCHAR(256) NOT NULL
             );
     `);
     })
