@@ -11,10 +11,10 @@ client.connect()
         return Promise.all(
             horror.map(horror => {
                 return client.query(`
-                    INSERT INTO horror (title, summary, worth_watch, release_year, director, url)
+                    INSERT INTO horror (title, summary, worthWatch, releaseYear, director, url)
                     VALUES ($1, $2, $3, $4, $5, $6);
                 `,
-                [horror.title, horror.summary, horror.worth_watch, horror.release_year, horror.director, horror.url]);
+                [horror.title, horror.summary, horror.worthWatch, horror.releaseYear, horror.director, horror.url]);
             })
         );
     })
