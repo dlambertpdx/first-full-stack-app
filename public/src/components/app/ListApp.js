@@ -19,7 +19,7 @@ class ListApp extends Component {
 
     renderHTML() {
         return /*html*/`
-            
+            <ul></ul>
         `;
     }
 }
