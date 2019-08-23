@@ -10,13 +10,10 @@ font-family: 'Acme', sans-serif; */
     align-items: center;
     text-align: center;
     height: 250px;
-    width: 47vw;
+    width: 500px;
     background-color: rgba(243, 127, 127, 0.3);
     border: 1px solid black;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    margin-left: 5px;
+    margin: 5px;
     padding: 5px;
 }
 
@@ -43,7 +40,7 @@ font-family: 'Acme', sans-serif; */
 
 .horror-title {
     font-family: 'Acme', sans-serif;
-    font-size: 1.75em;
+    font-size: 1.5em;
     line-height: 1em;
     margin-left: 15px;
     margin-right: 10px;
@@ -59,7 +56,7 @@ font-family: 'Acme', sans-serif; */
     font-size: 0.8em;
     width: 90%;
     text-align: left;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 15px;
 }
 
