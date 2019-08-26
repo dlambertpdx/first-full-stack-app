@@ -10,15 +10,15 @@ class FormApp extends Component {
         const header = new Header();
         dom.prepend(header.renderDOM());
 
-        const headerOne = document.createElement('h1');
+        // const headerOne = document.createElement('h1');
         const main = dom.querySelector('main');
-        headerOne.textContent = 'Submit a film';
-        main.prepend(headerOne);
+        // headerOne.textContent = 'Submit a film';
+        // main.prepend(headerOne);
 
-        const summary = document.createElement('p');
-        summary.classList.add('summary');
-        summary.textContent = 'Add a film to be included in our library.';
-        main.appendChild(summary);
+        // const summary = document.createElement('p');
+        // summary.classList.add('summary');
+        // summary.textContent = 'Add a film to be included in our library.';
+        // main.appendChild(summary);
 
         getGenres()
             .then(genres => {
