@@ -2,16 +2,18 @@ import Component from '../Component.js';
 import Header from '../app/Header.js';
 
 class App extends Component {
+
     onRender(dom) {
         const header = new Header();
-        dom.prepend(header.renderDom());
+        dom.prepend(header.renderDOM());
     }
 
     renderHTML() {
         return /*html*/`
-        <div id="root">
-            <!-- header goes here -->
-            <main></main>
+            
+        <div>
+            <main>
+            </main>
         </div>
         `;
     }

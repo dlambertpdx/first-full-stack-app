@@ -1,21 +1,22 @@
+// Load Environment Variables from the .env file
 require('dotenv').config();
-// "require" pg
+
+// Application Dependencies
 const pg = require('pg');
-// Use the pg Client
+
+// Database Client
 const Client = pg.Client;
-// note: you will need to create the database!
-
 const client = new Client(process.env.DATABASE_URL);
-
 client.connect()
     .then(() => {
         return client.query(`
             DROP TABLE IF EXISTS horror;
+            DROP TABLE IF EXISTS genres;
     `);
     })
     .then(
         () => console.log('drop tables complete'),
-        err => console.log(err)
+        err => console.log('DROP TABLES ERROR: ' + err)
     )
     .then(() => {
         client.end();

@@ -1,15 +1,9 @@
 const URL = '/api';
 
-export function getHorror() {  
-
+export function getHorror() {
     const url = `${URL}/horrors`;
-    return fetch(url)
-        .then(response => response.json());
-}
 
-export function getHorror(id) {  
-    const url = `${URL}/horrors/${id}`;
-    return fetch(url)
+    return fetch(url) 
         .then(response => response.json());
 }
 
@@ -27,6 +21,7 @@ export function addHorror(horror) {
 
 export function getGenres() {
     const url = `${URL}/genres`;
+
     return fetch(url)
         .then(response => response.json());
 }

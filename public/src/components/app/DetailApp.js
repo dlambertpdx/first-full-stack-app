@@ -4,7 +4,7 @@ import Loading from './Loading.js';
 import QUERY from '../../services/QUERY.js';
 import { getHorror } from '../../services/horror-api.js';
 
-class App extends Component {
+class DetailApp extends Component {
 
     onRender(dom) {
         const header = new Header();
@@ -27,6 +27,7 @@ class App extends Component {
 
         getHorror(id)
             .then(horror => {
+                // eslint-disable-next-line no-console
                 console.log(horror);
                 // TODO: update cat detail component...
             })
@@ -47,4 +48,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default DetailApp;
