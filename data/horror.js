@@ -1,7 +1,9 @@
+
 module.exports = [
     {
         title: 'FOUR FLIES ON GREY VELVET',
         summary: 'Roberto, a drummer in a rock band, keeps receiving weird phone calls and being followed by a mysterious man. One night he manages to catch up with his persecutor and tries to get him to talk but in the ensuing struggle he accidentally stabs him. He runs away, but he understands his troubles have just begun when the following day he receives an envelope with photos of him killing the man. Someone is killing all his friends and trying to frame him for the murders…',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1971,
         director: 'Dario Argento',
@@ -10,6 +12,7 @@ module.exports = [
     {
         title: 'THE BIRD WITH THE CRYSTAL PLUMAGE',
         summary: 'In Italy, the American writer Sam Dalmas (Tony Musante) witnesses an attempt of murder of the owner of an art gallery, a couple of days before his foreseen return to the United States of America. He decides to stay with his girlfriend Julia (Suzy Kendall) and help the police in the investigation, while the serial killer stalks Julia and him.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1970,
         director: 'Dario Argento',
@@ -18,6 +21,7 @@ module.exports = [
     {
         title: 'THE CAT O’ NINE TAILS',
         summary: 'A reporter and a blind retired journalist try to solve a series of murders. The crimes are connected to experiments by a pharmaceutical company in secret research. The two end up becoming targets of the killer.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1971,
         director: 'Dario Argento',
@@ -26,6 +30,7 @@ module.exports = [
     {
         title: 'DEEP RED',
         summary: 'A musician witnesses the murder of a famous psychic, and then teams up with a fiesty reporter to find the killer while evading attempts on their lives by the unseen killer bent on keeping a dark secret buried.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1975,
         director: 'Dario Argento',
@@ -34,6 +39,7 @@ module.exports = [
     {
         title: 'SUSPIRIA',
         summary: 'From the moment she arrives in Freiberg, Germany, to attend the prestigious Tans Academy, American ballet-dancer Suzy Bannion senses that something horribly evil lurks within the walls of the age-old institution.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1977,
         director: 'Dario Argento',
@@ -42,6 +48,7 @@ module.exports = [
     {
         title: 'INFERNO',
         summary: 'A young man returns from Rome to his sister’s satanic New York apartment house.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1980,
         director: 'Dario Argento',
@@ -50,6 +57,7 @@ module.exports = [
     {
         title: 'TENEBRE',
         summary: 'An American writer in Rome is stalked by a serial killer bent on harassing him while killing all people associated with his work on his latest book.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1982,
         director: 'Dario Argento',
@@ -58,6 +66,7 @@ module.exports = [
     {
         title: 'PHENOMENA',
         summary: 'A young girl, with an amazing ability to communicate with insects, is transferred to an exclusive Swiss boarding school, where her unusual capability might help solve a string of murders.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1985,
         director: 'Dario Argento',
@@ -66,6 +75,7 @@ module.exports = [
     {
         title: 'OPERA',
         summary: 'A young opperata is stalked by a deranged fan bent on killing the people associated with her to claim her for himself.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1987,
         director: 'Dario Argento',
@@ -74,6 +84,7 @@ module.exports = [
     {
         title: 'TRAUMA',
         summary: 'An anorexic young woman escapes from a psychiatric clinic and meets a young man who wants to help.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1993,
         director: 'Dario Argento',
@@ -82,6 +93,7 @@ module.exports = [
     {
         title: 'DO YOU LIKE HITCHCOCK?',
         summary: 'In 1990, as a boy, Giulio was chased through the woods by two women after spying on them practicing witchcraft.',
+        genre: 'Slasher',
         worthWatch: false,
         releaseYear: 2005,
         director: 'Dario Argento',
@@ -90,6 +102,7 @@ module.exports = [
     {
         title: 'JENIFER',
         summary: 'Police officer Frank Spivey is eating lunch in his squad car when he happens upon a crazed man with a butcher knife forcing a young woman onto the ground.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 2005,
         director: 'Dario Argento',
@@ -98,6 +111,7 @@ module.exports = [
     {
         title: 'PELTS',
         summary: 'Meat Loaf Aday plays Jake Feldman, a furrier struggling to build a business while being tormented by his obsession for a stripper. ',
+        genre: 'Slasher',
         worthWatch: false,
         releaseYear: 2006,
         director: 'Dario Argento',
@@ -106,6 +120,7 @@ module.exports = [
     {
         title: 'THE MOTHER OF TEARS',
         summary: 'An ancient urn is found in a cemetery outside Rome. Once opened, it triggers a series of violent incidents: robberies, rapes and murders increase dramatically, while several mysterious, evil-looking young women coming from all over the world are gathering in the city.',
+        genre: 'Slasher',
         worthWatch: false,
         releaseYear: 2007,
         director: 'Dario Argento',
@@ -114,6 +129,7 @@ module.exports = [
     {
         title: 'THE STENDHAL SYNDROME',
         summary: 'A young policewoman slowly goes insane while tracking down an elusive serial rapist/killer through Italy when she herself becomes a victim of the brutal man’s obsession.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1996,
         director: 'Dario Argento',
@@ -122,6 +138,7 @@ module.exports = [
     {
         title: 'SLEEPLESS',
         summary: 'An elderly and retired police detective and a young amateur sleuth team up to find a serial killer whom has resumed a killing spree in Turin, Italy after a 17-year hiatus.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 2001,
         director: 'Dario Argento',
@@ -130,6 +147,7 @@ module.exports = [
     {
         title: 'THE PHANTOM OF THE OPERA',
         summary: 'Gory remake of the Gaston Leroux classic story, only this time, the phantom is not disfigured, but a man who was raised by rats deep under the Paris Opera House.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 1998,
         director: 'Dario Argento',
@@ -138,6 +156,7 @@ module.exports = [
     {
         title: 'DRACULA 3D',
         summary: 'When Englishman Jonathan Harker visits the exotic castle of Count Dracula, he is entranced by the mysterious aristocrat. But upon learning that the count has sinister designs on his wife, Mina, Harker seeks help from vampire slayer Van Helsing.',
+        genre: 'Slasher',
         worthWatch: false,
         releaseYear: 2012,
         director: 'Dario Argento',
@@ -146,6 +165,7 @@ module.exports = [
     {
         title: 'GIALLO',
         summary: 'In Torino, Celine, an American model, is abducted by a taxi driver while en route home to meet her sister Linda, visiting at her apartment. The next morning, Linda reports that Celine is missing – the sergeant in charge directs her to F.B.I. agent Inspector Enzo Avolfi.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 2010,
         director: 'Dario Argento',
@@ -154,6 +174,7 @@ module.exports = [
     {
         title: 'THE CARD PLAYER',
         summary: 'Policewoman Anna Mari is forced to play a dangerous game with the title serial killer. If she loses, she witnesses the maniac’s tortured victims having their throats cut in explicit close-up detail via webcam. She teams up with British cop John Brennan to find out the identity of the murderer.',
+        genre: 'Slasher',
         worthWatch: true,
         releaseYear: 2004,
         director: 'Dario Argento',
@@ -162,6 +183,7 @@ module.exports = [
     {
         title: 'THE SANDMAN',
         summary: 'THE SANDMAN tells the story of Nathan, a young student in the city who struggles to forget his childhood trauma at the hands of the serial killer dubbed “The Sandman.”',
+        genre: 'Slasher',
         worthWatch: false,
         releaseYear: 2018,
         director: 'Dario Argento',

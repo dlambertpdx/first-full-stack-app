@@ -1,20 +1,40 @@
 require('dotenv').config();
 const pg = require('pg');
 const Client = pg.Client;
+const genres = require('./genres');
 const horror = require('./horror');
-// note: you will need to create the database!
 const client = new Client(process.env.DATABASE_URL);
 
 client.connect()
     .then(() => {
         // "Promise all" does a parallel execution of async tasks
         return Promise.all(
-            horror.map(horror => {
+            genres.map(genre => {
                 return client.query(`
-                    INSERT INTO horror (title, summary, worthWatch, releaseYear, director, urlImage)
-                    VALUES ($1, $2, $3, $4, $5, $6);
+                    INSERT INTO genres (name)
+                    VALUES ($1)
+                    RETURNING *;
                 `,
-                [horror.title, horror.summary, horror.worthWatch, horror.releaseYear, horror.director, horror.url_image]);
+                [genre])
+                    .then(result => result.rows[0]);
+            })
+        );
+    })
+    .then(genres => {
+        // "Promise all" does a parallel execution of async tasks
+        return Promise.all(
+            horror.map(horror => {
+                const genre = genres.find(gen => {
+                    return gen.name === horror.genre;
+                });
+                const genreId = genre.id;
+    
+
+                return client.query(`
+                    INSERT INTO horror (title, genre_id, summary, worthWatch, releaseYear, director, urlImage)
+                    VALUES ($1, $2, $3, $4, $5, $6, $7);
+                `,
+                [horror.title, genreId, horror.summary, horror.worthWatch, horror.releaseYear, horror.director, horror.url_image]);
             })
         );
     })

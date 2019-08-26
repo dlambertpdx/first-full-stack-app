@@ -1,14 +1,14 @@
-import QUERY from '../src/components/services/QUERY.js';
+import QUERY from '../src/services/QUERY.js';
 const test = QUnit.test;
 
 QUnit.module('Query String Parser');
 
 test('converts query string to object', assert => {
     // arrange
-    const query = 'horror=susperia&page=1'; 
+    const query = 'search=shiny&page=1'; 
     const expected = {
-        title: 'SUSPIRIA',
-        releaseYear: '1971'
+        search: 'shiny',
+        page: '1'
     };
 
     // act
@@ -20,11 +20,11 @@ test('converts query string to object', assert => {
 
 test('converts object to query string', assert => {
     const queryProps = {
-        title: 'SUSPIRIA',
-        releaseYear: '1971'
+        search: 'shiny',
+        page: '1'
     };
 
-    const expected = 'title=SUSPIRIA&releaseYear=1971'; 
+    const expected = 'search=shiny&page=1'; 
     
     // act
     const query = QUERY.stringify(queryProps);

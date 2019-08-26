@@ -1,14 +1,14 @@
-import hashStorage from '../src/components/services/hash-storage.js';
+import hashStorage from '../src/services/hash-storage.js';
 const test = QUnit.test;
 
 QUnit.module('Hash Storage');
 
 test('reads window location hash as object', assert => {
     // arrange
-    window.location.hash = 'title=SUSPIRIA&releaseYear=1971';
+    window.location.hash = 'search=shiny&page=1';
     const expected = {
-        title: 'SUSPIRIA',
-        releaseYear: '1971'
+        search: 'shiny',
+        page: '1'
     };
 
     // act
@@ -22,10 +22,10 @@ test('sets window location with new props', assert => {
     // arrange
     window.location.hash = '';
     const queryProps = {
-        title: 'SUSPIRIA',
-        releaseYear: '1971'
+        search: 'shiny',
+        page: '1'
     };
-    const expected = 'title=SUSPIRIA&releaseYear=1971';
+    const expected = 'search=shiny&page=1';
 
     // act
     hashStorage.set(queryProps);
@@ -37,11 +37,11 @@ test('sets window location with new props', assert => {
 
 test('only sets new props on location', assert => {
     // arrange
-    window.location.hash = 'title=SUSPIRIA&releaseYear=1971';
+    window.location.hash = 'search=shiny&page=1';
     const queryProps = {
-        releaseYear: '1975'
+        page: '2'
     };
-    const expected = 'title=INFERNO&releaseYear=1975';
+    const expected = 'search=shiny&page=2';
 
     // act
     hashStorage.set(queryProps);
@@ -53,9 +53,9 @@ test('only sets new props on location', assert => {
 
 test('removes key from storage', assert => {
     // arrange
-    window.location.hash = 'title=SUSPIRIA&releaseYear=1971';
-    const key = 'releaseYear';
-    const expected = 'title=SUSPIRIA';
+    window.location.hash = 'search=shiny&page=1';
+    const key = 'page';
+    const expected = 'search=shiny';
 
     // act
     hashStorage.remove(key);
