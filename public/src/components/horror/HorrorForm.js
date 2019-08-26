@@ -41,6 +41,7 @@ class HorrorForm extends Component {
 
         return /*html*/`
             <form class="horror-form">
+                <h1>Add a Film:</h1>
                 <p>
                     <label for="title">Title</label>
                     <input id="title" name="title" required placeholder="Film Title">
