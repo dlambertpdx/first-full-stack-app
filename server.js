@@ -27,10 +27,10 @@ app.get('/api/horrors', (req, res) => {
             h.title,
             g.name AS genre,
             h.summary,
-            h.worthWatch,
-            h.releaseYear,
+            h.worth_watch,
+            h.release_year,
             h.director,
-            h.urlImage
+            h.url_image
         FROM HORROR h
         JOIN genres g
         ON h.genre_id = g.id;
@@ -48,7 +48,7 @@ app.get('/api/horrors', (req, res) => {
 app.post('/api/horrors', (req, res) => {
     const horror = req.body;
     client.query(`
-        INSERT INTO horror (title, summary, worthWatch, releaseYear, genre_id, director, urlImage)
+        INSERT INTO horror (title, summary, worth_watch, release_year, genre_id, director, url_image)
         VALUES ($1, $2, $3, $4, $5, $6, $7)
         RETURNING *;
     `,

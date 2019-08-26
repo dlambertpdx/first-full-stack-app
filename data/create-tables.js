@@ -19,11 +19,11 @@ client.connect()
                 id SERIAL PRIMARY KEY NOT NULL,
                 title VARCHAR(256) NOT NULL,
                 summary TEXT NOT NULL,
-                worthWatch BOOLEAN NOT NULL,
-                releaseYear INTEGER NOT NULL,
+                worth_watch BOOLEAN NOT NULL,
+                release_year INTEGER NOT NULL,
                 director VARCHAR(256) NOT NULL,
                 genre_id INTEGER NOT NULL REFERENCES genres(id),
-                urlImage VARCHAR(256) NOT NULL
+                url_image VARCHAR(256) NOT NULL
             );
     `);
     })

@@ -31,10 +31,10 @@ client.connect()
     
 
                 return client.query(`
-                    INSERT INTO horror (title, genre_id, summary, worthWatch, releaseYear, director, urlImage)
+                    INSERT INTO horror (title, genre_id, summary, worth_watch, release_year, director, url_image)
                     VALUES ($1, $2, $3, $4, $5, $6, $7);
                 `,
-                [horror.title, genreId, horror.summary, horror.worthWatch, horror.releaseYear, horror.director, horror.url_image]);
+                [horror.title, genreId, horror.summary, horror.worth_watch, horror.release_year, horror.director, horror.url_image]);
             })
         );
     })
