@@ -25,4 +25,5 @@ nav a {
     margin-top: 3px;
     text-decoration: none;
     color: white;
+    z-index: 1;
 }
